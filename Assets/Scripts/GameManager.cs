@@ -85,13 +85,13 @@ public class GameManager : MonoBehaviour
     public void addScore()
     {
         urScore = urScore + enemyScore;
-        audioSource.PlayOneShot(deadClip);
+        
     }
 
     public void decreaseScore()
     {
         urScore = urScore - enemyScore;
-        audioSource.PlayOneShot(deadClip);
+        
     }
 
 }

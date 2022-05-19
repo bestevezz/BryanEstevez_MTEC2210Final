@@ -12,6 +12,7 @@ public class PlayerScript : MonoBehaviour
     private float _canFire = -1f;
     private AudioSource _audioSource;
     public AudioClip _shootClip;
+    public AudioClip _explosionClip;
     public GameObject _laserPrefab;
     public GameObject _ship;
     public int urScore = 0;
@@ -32,6 +33,8 @@ public class PlayerScript : MonoBehaviour
         {
             FireLaser();
         }
+
+        
 
     }
 
