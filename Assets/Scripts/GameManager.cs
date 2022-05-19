@@ -58,23 +58,23 @@ public class GameManager : MonoBehaviour
         }
         if (enemyIndex == 1)
         {
-            alienPrefab.GetComponent<EnemyScript>()._alienSpeed = -3.5f;
+            alienPrefab.GetComponent<EnemyScript>()._alienSpeed = -3f;
             enemyScore = 30;
             
         }
         if (enemyIndex == 2)
         {
-            alienPrefab.GetComponent<EnemyScript>()._alienSpeed = -5.5f;
+            alienPrefab.GetComponent<EnemyScript>()._alienSpeed = -4.5f;
             enemyScore = 50;
         }
         if (enemyIndex == 3)
         {
-            alienPrefab.GetComponent<EnemyScript>()._alienSpeed = -6.5f;
+            alienPrefab.GetComponent<EnemyScript>()._alienSpeed = -6f;
             enemyScore = 80;
         }
         if (enemyIndex == 4)
         {
-            alienPrefab.GetComponent<EnemyScript>()._alienSpeed = -8f;
+            alienPrefab.GetComponent<EnemyScript>()._alienSpeed = -7.5f;
             enemyScore = 100;
         }
         
