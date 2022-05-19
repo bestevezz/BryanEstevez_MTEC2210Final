@@ -82,7 +82,7 @@ public class PlayerScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
             SceneManager.LoadScene("LoserScreen");
         }
     }

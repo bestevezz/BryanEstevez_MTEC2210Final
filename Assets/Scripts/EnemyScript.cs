@@ -37,7 +37,7 @@ public class EnemyScript : MonoBehaviour
         {
             
             //Debug.Log("IM HIT!");
-            Destroy(this.gameObject);
+            Destroy(gameObject);
             keepScore.addScore();
             
             
@@ -45,7 +45,7 @@ public class EnemyScript : MonoBehaviour
         
         if (collision.gameObject.tag == "Ground")
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
             keepScore.decreaseScore();
             
             
